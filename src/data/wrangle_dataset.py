@@ -1,6 +1,6 @@
 
 # Written by Zachary Kneupper
-# 2017-10-15
+# 2017-10-16
 
 # This program was written to wrangle/clean data in
 # 'default of credit card clients.xls' and to export the
@@ -71,10 +71,10 @@ def create_wrangled_dataset(new_file_name='dataset_wrangled.csv',
 
     # Save the path to the folder that will contain 
     # the final, canonical data sets for modeling:
-    # /data/processed
-    processed_data_dir = os.path.join(proj_root,
+    # /data/interim
+    interim_data_dir = os.path.join(proj_root,
                                     "data",
-                                    "processed")
+                                    "interim")
 
     # Create header rows for new csv file
     temp_df = pd.read_excel(raw_data_file)
@@ -103,7 +103,7 @@ def create_wrangled_dataset(new_file_name='dataset_wrangled.csv',
         arrays = [header_list, list(df_edited_2.columns)]
         df_edited_2.columns = arrays
 
-        new_file_path = os.path.join(processed_data_dir,
+        new_file_path = os.path.join(interim_data_dir,
                                      new_file_name)
 
         df_edited_2.to_csv(new_file_path, 
@@ -225,7 +225,7 @@ def create_wrangled_dataset(new_file_name='dataset_wrangled.csv',
         df_edited_trimmed_2.columns = arrays
 
         new_file_name = 'dataset_wrangled_trimmed.csv'
-        new_file_path = os.path.join(processed_data_dir,
+        new_file_path = os.path.join(interim_data_dir,
                                      new_file_name)
 
         df_edited_trimmed_2.to_csv(new_file_path, 
