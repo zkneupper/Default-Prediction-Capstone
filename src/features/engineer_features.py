@@ -90,53 +90,6 @@ def create_processed_dataset(new_file_name='dataset_processed.csv'):
 
     df_interim.rename(columns=cols_dict, inplace=True)
 
-    # Log transforms
-    df_interim['limit_bal_log'] = df_interim.limit_bal.apply(np.log)
-    df_interim['age_log'] = df_interim.age.apply(np.log)
-
-    new_log1p_list = ['bill_amt1',
-                  'bill_amt2',
-                  'bill_amt3',
-                  'bill_amt4',
-                  'bill_amt5',
-                  'bill_amt6',
-                  'pay_amt1',
-                  'pay_amt2',
-                  'pay_amt3',
-                  'pay_amt4',
-                  'pay_amt5',
-                  'pay_amt6']
-
-    def new_log1p(x):
-        if x < 0:
-            output = 0
-        else:
-            output = np.log1p(x)
-        return output
-
-    for col in new_log1p_list:
-        new_col = col + '_log'
-        df_interim[new_col] = df_interim[col].apply(new_log1p)
-
-    drop_list = ['limit_bal',
-                 'age',
-                 'bill_amt1',
-                 'bill_amt2',
-                 'bill_amt3',
-                 'bill_amt4',
-                 'bill_amt5',
-                 'bill_amt6',
-                 'pay_amt1',
-                 'pay_amt2',
-                 'pay_amt3',
-                 'pay_amt4',
-                 'pay_amt5',
-                 'pay_amt6']
-
-    df_interim.drop(drop_list,
-                    axis=1, 
-                    inplace=True)
-
     # One-hot-encode categorical variables
     # Make a list of categorical columns
     categorical_vars = ['sex', 'edu', 'marriage', 
