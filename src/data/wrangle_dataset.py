@@ -1,18 +1,20 @@
-
-# Written by Zachary Kneupper
-# 2017-10-16
-
-# This program was written to wrangle/clean data in
-# 'default of credit card clients.xls' and to export the
-# wrangled/cleaned data data to a new file called 
-# 'dataset_wrangled.csv' and a second wrangled/cleaned 
-# with outliers removed called 'dataset_wrangled_trimmed.csv'
+#!/usr/bin/env python
 
 import os
 import sys
-
 import pandas as pd
 import numpy as np
+
+"""wrangle_dataset
+
+Written by: Zachary Kneupper
+Date:       2017-11-04
+
+This program was written to wrangle/clean data in 'default of credit card clients.xls' 
+and to export the wrangled/cleaned data data to a new file called 'dataset_wrangled.csv'
+and a second wrangled/cleaned with outliers removed called 'dataset_wrangled_trimmed.csv'
+
+"""
 
 
 
