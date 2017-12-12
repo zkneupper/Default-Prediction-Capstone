@@ -20,8 +20,8 @@ Keywords:  Risk management; Machine learning; Gradient boosting; XGBoost
 [Method](#method)   
 [Results](#results)   
 [Next Steps](#next-steps)  
-[References](#references)  
 [Project Organization](#project-organization)  
+[References](#references)  
 
 
 ------------
@@ -76,9 +76,9 @@ Capstone Project: Using machine learning to predict the probability of default o
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
-    │   └── images
+    │   └── images    
     │
-    └── src                <- Source code for use in this project.
+    └── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module
         │
         ├── data           <- Scripts to download or generate data
