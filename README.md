@@ -27,7 +27,6 @@ Keywords:  Risk management; Machine learning; Gradient boosting; XGBoost
 ------------
 
 ## Background
-------------
 
 Machine learning techniques can be an important tool for financial risk management.  Performant and scalable machine learning models that are able to predict the probability of credit card default could bolster the risk management toolkits of credit scoring agencies and credit card originators.  
 
@@ -42,7 +41,6 @@ We trained and tested our gradient boosting model on the anonymized dataset of c
 ------------
 
 ## Process Overview and Tech Stack
-------------
 
 Below is a summary of the process steps and technology stack that I used in this project.
 
@@ -64,7 +62,6 @@ Capstone Project: Using machine learning to predict the probability of default o
 ------------
 
 ## Project Organization
-------------
 
     ├── LICENSE
     ├── README.md          <- The top-level README for this project.
@@ -105,5 +102,8 @@ Capstone Project: Using machine learning to predict the probability of default o
 ------------
 
 ## References
+
 1. [Credit Card Default Data Set on the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default%20of%20credit%20card%20clients)
 2. [I-Cheng Yeh, and Che-Hui Lien. "The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients." Expert Systems with Applications 36, no. 2 (2009)](https://pdfs.semanticscholar.org/1cac/ac4f0ea9fdff3cd88c151c94115a9fddcf33.pdf)
+
+------------
