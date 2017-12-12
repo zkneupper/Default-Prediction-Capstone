@@ -2,7 +2,7 @@ Predicting Credit Card Default with XGBoost
 ==============================
 
 
-This repository contains the documentation for my first capstone project at [Springboard](https://www.springboard.com/workshops/data-science-career-track).  My project applies gradient boosting tree models to predict consumer credit card default.   Specifically, I used a high-performance implementation of the gradient boosting algorithm called XGBoost to predict credit card default.  
+This repository contains the documentation for my first capstone project at [Springboard](https://www.springboard.com/workshops/data-science-career-track).  My project applied gradient boosting tree models to predict consumer credit card default.   Specifically, I used a high-performance implementation of the gradient boosting algorithm called XGBoost to predict credit card default.  
 
 ------------
 
@@ -18,8 +18,9 @@ Keywords:  Risk management; Machine learning; Gradient boosting; XGBoost
 [Process Overview and Tech Stack](#process-overview-and-tech-stack)   
 [EDA and Data Mining](#eda-and-data-mining)  
 [Method](#method)   
+[Final Report](#final-report)   
 [Results](#results)   
-[Next Steps](#next-steps)  
+[Next Steps](#next-steps)   
 [Project Organization](#project-organization)  
 [References](#references)  
 
@@ -47,8 +48,9 @@ Below is a summary of the process steps and technology stack that I used in this
 ![tech-stack](reports/images/tech-stack.png)
 
 
-
+<!---
 Below is a summary of the process steps which begins with data exploration and data munging. The model requires that the input be transformed into binary vectors which was done by parsing the csv in Python. Next, I used Apache Spark's implementation of MinHash LSH to take advantage of distributed computing to evaluate many parallel similarity calculations. The PySpark script was executed on an AWS virtual machine for additional computing power and resources. The output csv was uploaded to a Postgres database where it is available to be queried by users.
+--->
 
 
 
@@ -61,12 +63,28 @@ Capstone Project: Using machine learning to predict the probability of default o
 
 ------------
 
+## Final Report
+
+
+
+<!---
+The final report for this project can be found [here](https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/Final-Report_Predicting-Credit-Card-Default-with-XGBoost.pdf)
+--->
+
+
+<!---
+      The final report for this project can be found [here](https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/Inferential-Statistics-Report.pdf)
+--->
+
+------------
+
 ## Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for this project.
     ├── data
     │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.    
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
@@ -97,7 +115,8 @@ Capstone Project: Using machine learning to predict the probability of default o
 
 ## References
 
-1. [Credit Card Default Data Set on the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default%20of%20credit%20card%20clients)
-2. [I-Cheng Yeh, and Che-Hui Lien. "The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients." Expert Systems with Applications 36, no. 2 (2009)](https://pdfs.semanticscholar.org/1cac/ac4f0ea9fdff3cd88c151c94115a9fddcf33.pdf)
+1. [I-Cheng Yeh, and Che-Hui Lien. "The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients." Expert Systems with Applications 36, no. 2 (2009)](https://pdfs.semanticscholar.org/1cac/ac4f0ea9fdff3cd88c151c94115a9fddcf33.pdf)
+2. [Credit Card Default Data Set on the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default%20of%20credit%20card%20clients)
+
 
 ------------
