@@ -64,12 +64,7 @@ Exploratory data analysis ("EDA")...
 
 
 
-![eda-fig](reports/figures/EDA_Defaults_by_ratio_bapacl.png | width=100)
-
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
-
-
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=200)
+![eda-fig](reports/figures/EDA_Defaults_by_ratio_bapacl.png)
 
 <img src="https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/figures/EDA_Defaults_by_ratio_bapacl.png" alt="Drawing" style="width: 200px;"/>
 
