@@ -78,7 +78,7 @@ Capstone Project: Using machine learning to predict the probability of default o
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
-    │   └── images    
+    │   └── images        <- Generated
     │
     ├── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module
