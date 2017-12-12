@@ -46,7 +46,7 @@ We trained and tested our gradient boosting model on the anonymized dataset of c
 
 Below is a summary of the process steps and technology stack that I used in this project.
 
-![tech-stack](images/tech-stack.png)
+![tech-stack](reports/images/tech-stack.png)
 
 
 
