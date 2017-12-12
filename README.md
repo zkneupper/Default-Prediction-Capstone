@@ -16,7 +16,7 @@ Keywords:  Risk management; Machine learning; Gradient boosting; XGBoost
 [Background](#background)  
 [Objective](#objective)  
 [Process Overview and Tech Stack](#process-overview-and-tech-stack)   
-[EDA and Data Mining](#eda-and-data-mining)  
+[EDA and Feature Engineering](#eda-and-feature-engineering)  
 [Method](#method)   
 [Final Report](#final-report)   
 [Results](#results)   
@@ -53,7 +53,33 @@ Below is a summary of the process steps which begins with data exploration and d
 --->
 
 
+------------
 
+## EDA and Feature Engineering
+
+
+
+Exploratory data analysis ("EDA")...
+
+
+
+
+![eda-fig](reports/figures/EDA_Defaults_by_ratio_bapacl.png | width=100)
+
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+
+
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=200)
+
+<img src="https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/figures/EDA_Defaults_by_ratio_bapacl.png" alt="Drawing" style="width: 200px;"/>
+
+<img src="https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/figures/EDA_Defaults_by_ratio_bapacl.png" width="48">
+
+<!---
+<img src="https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/figures/EDA_Defaults_by_ratio_bapacl.png" width="48">
+
+![eda-fig](reports/figures/EDA_Defaults_by_ratio_bapacl.png){:height="36px" width="36px"}
+--->
 
 ------------
 
@@ -88,11 +114,11 @@ The final report for this project can be found [here](https://github.com/zkneupp
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Trained and serialized models
     │
     ├── notebooks          <- Jupyter notebooks.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── reports            <- Generated analysis as PDF reports and Jupyter notebooks.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │   └── images    
     │
