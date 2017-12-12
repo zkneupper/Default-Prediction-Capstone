@@ -72,15 +72,13 @@ Capstone Project: Using machine learning to predict the probability of default o
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
-    │   └── images        <- Generated
+    │   └── images
     │
-    ├── src                <- Source code for use in this project.
+    └── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module
         │
         ├── data           <- Scripts to download or generate data
@@ -89,7 +87,7 @@ Capstone Project: Using machine learning to predict the probability of default o
         ├── features       <- Scripts to turn raw data into features for modeling
         │   └── build_features.py
         │
-        ├── models         <- Scripts to train models and then use trained models to make
+        └── models         <- Scripts to train models and then use trained models to make
             │                 predictions
             ├── predict_model.py
             └── train_model.py
