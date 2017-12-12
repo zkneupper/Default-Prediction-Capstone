@@ -62,19 +62,10 @@ Below is a summary of the process steps which begins with data exploration and d
 Exploratory data analysis ("EDA")...
 
 
-
+...
 
 ![eda-fig](reports/figures/EDA_Defaults_by_ratio_bapacl.png)
 
-<img src="https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/figures/EDA_Defaults_by_ratio_bapacl.png" alt="Drawing" style="width: 200px;"/>
-
-<img src="https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/figures/EDA_Defaults_by_ratio_bapacl.png" width="48">
-
-<!---
-<img src="https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/figures/EDA_Defaults_by_ratio_bapacl.png" width="48">
-
-![eda-fig](reports/figures/EDA_Defaults_by_ratio_bapacl.png){:height="36px" width="36px"}
---->
 
 ------------
 
