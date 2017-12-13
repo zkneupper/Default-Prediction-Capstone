@@ -62,9 +62,12 @@ XGBoost outperformed logistic regression, which is one of the [most prominent me
 
 <!---  
 ![roc_curve](reports/figures/roc_curve.png)
+
+<img src="https://raw.githubusercontent.com/zkneupper/Default-Prediction-Capstone/master/reports/figures/roc_curve.png" width="500">
 --->
 
-<img src="https://raw.githubusercontent.com/zkneupper/Default-Prediction-Capstone/master/reports/figures/roc_curve.png" width="700">
+<center><img src="https://raw.githubusercontent.com/zkneupper/Default-Prediction-Capstone/master/reports/figures/roc_curve.png" width="500"></center>
+
 
 ------------
 
