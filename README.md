@@ -8,7 +8,7 @@ XGBoost outperformed logistic regression, which is one of the [most prominent me
 
 ------------
 
-Keywords:  Credit Scoring; Risk management; Machine learning; Gradient boosting; XGBoost
+Keywords:  Credit Score; Risk management; Machine learning; Gradient boosting; XGBoost
 
 ------------
 
