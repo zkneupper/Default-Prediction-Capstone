@@ -18,10 +18,10 @@ Keywords:  Risk management; Machine learning; Gradient boosting; XGBoost
 [Process Overview and Tech Stack](#process-overview-and-tech-stack)   
 [EDA and Feature Engineering](#eda-and-feature-engineering)  
 [Method](#method)   
-[Final Report](#final-report)   
 [Results](#results)   
+[Final Report](#final-report)   
 [Next Steps](#next-steps)   
-[Project Organization](#project-organization)  
+[GitHub Folder Structure](#github-folder-structure)  
 [References](#references)  
 
 
@@ -43,15 +43,7 @@ We trained and tested our gradient boosting model on the anonymized dataset of c
 
 ## Process Overview and Tech Stack
 
-Below is a summary of the process steps and technology stack that I used in this project.
-
 ![tech-stack](reports/images/tech-stack.png)
-
-
-<!---
-Below is a summary of the process steps which begins with data exploration and data munging. The model requires that the input be transformed into binary vectors which was done by parsing the csv in Python. Next, I used Apache Spark's implementation of MinHash LSH to take advantage of distributed computing to evaluate many parallel similarity calculations. The PySpark script was executed on an AWS virtual machine for additional computing power and resources. The output csv was uploaded to a Postgres database where it is available to be queried by users.
---->
-
 
 ------------
 
@@ -67,30 +59,35 @@ Exploratory data analysis ("EDA")...
 ![eda-fig](reports/figures/EDA_Defaults_by_ratio_bapacl.png)
 
 
+A more detailed description of the EDA and feature engineering process can be found in the [final report](#final-report) for this project.
+
+
 ------------
 
 
 Capstone Project: Using machine learning to predict the probability of default of credit card clients.
 
 
+
+------------
+
+## Results
+
+ROC Curve
+![roc_curve](reports/figures/roc_curve.png)
+
+
+
+
 ------------
 
 ## Final Report
 
-
-
-<!---
-The final report for this project can be found [here](https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/Final-Report_Predicting-Credit-Card-Default-with-XGBoost.pdf)
---->
-
-
-<!---
-      The final report for this project can be found [here](https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/Inferential-Statistics-Report.pdf)
---->
+The final report for this project can be found [here](https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/Final-Report_Predicting-Credit-Card-Default-with-XGBoost.pdf).
 
 ------------
 
-## Project Organization
+## GitHub Folder Structure
 
     ├── LICENSE
     ├── README.md          <- The top-level README for this project.
@@ -129,6 +126,8 @@ The final report for this project can be found [here](https://github.com/zkneupp
 
 1. [I-Cheng Yeh, and Che-Hui Lien. "The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients." Expert Systems with Applications 36, no. 2 (2009)](https://pdfs.semanticscholar.org/1cac/ac4f0ea9fdff3cd88c151c94115a9fddcf33.pdf)
 2. [Credit Card Default Data Set on the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default%20of%20credit%20card%20clients)
+3. [Introduction to Boosted Trees](http://xgboost.readthedocs.io/en/latest/model.html)
+
 
 
 ------------
