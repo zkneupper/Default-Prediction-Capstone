@@ -2,7 +2,7 @@ Predicting Credit Card Default with XGBoost
 ==============================
 
 
-In this project, I applied gradient boosted tree models to predict consumer credit card default.  I used a high-performance implementation of the gradient boosting algorithm called [XGBoost](http://xgboost.readthedocs.io/en/latest/model.html) to predict credit card default.  
+In this project, I applied gradient boosting models to predict credit card default.  I used a high-performance implementation of the gradient boosting algorithm called [XGBoost](http://xgboost.readthedocs.io/en/latest/model.html).  
 
 XGBoost outperformed logistic regression, which is one of the [most prominent methods](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Financial-Services/gx-be-aers-fsi-credit-scoring.pdf) for credit scoring.  XGBoost achieved a test ROC AUC score of 0.780, whereas logistic regression achieved a test ROC AUC score of 0.765.
 
