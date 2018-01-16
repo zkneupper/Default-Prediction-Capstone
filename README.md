@@ -73,7 +73,7 @@ XGBoost outperformed logistic regression, which is one of the [most prominent me
 
 ## Final Report
 
-The final report for the project can be found [here](https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/Final-Report_Predicting-Credit-Card-Default-with-XGBoost.pdf).
+The final report for the project can be found [here](https://github.com/zkneupper/Default-Prediction-Capstone/blob/master/reports/Final_Report.pdf).
 
 ------------
 
